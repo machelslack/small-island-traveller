@@ -1,0 +1,13 @@
+{
+  "name": "small-island-traveller-api-gateway",
+  "$schema": "../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "small-island-traveller-api-gateway/src",
+  "projectType": "library",
+  "tags": [],
+  "targets": {
+    "lint": {
+      "executor": "@nx/eslint:lint",
+      "outputs": ["{options.outputFile}"]
+    }
+  }
+}

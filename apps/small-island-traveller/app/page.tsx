@@ -1,4 +1,5 @@
 import styled from '@emotion/styled';
+import { smallIslandTravellerLanguageTranslator } from '@small-island-traveller/small-island-traveller-language-translator';
 
 const StyledPage = styled.div`
   .page {
@@ -21,7 +22,7 @@ export default async function Index() {
               Welcome small-island-traveller 👋
             </h1>
           </div>
-
+          {smallIslandTravellerLanguageTranslator()}
           <div id="hero" className="rounded">
             <div className="text-container">
               <h2>

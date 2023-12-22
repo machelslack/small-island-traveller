@@ -1,7 +1,7 @@
 {
-  "name": "small-island-traveller-api-gateway",
+  "name": "small-island-traveller-language-translator",
   "$schema": "../node_modules/nx/schemas/project-schema.json",
-  "sourceRoot": "small-island-traveller-api-gateway/src",
+  "sourceRoot": "small-island-traveller-language-translator/src",
   "projectType": "library",
   "targets": {
     "lint": {
@@ -12,7 +12,7 @@
       "executor": "@nx/jest:jest",
       "outputs": ["{workspaceRoot}/coverage/{projectRoot}"],
       "options": {
-        "jestConfig": "small-island-traveller-api-gateway/jest.config.ts"
+        "jestConfig": "small-island-traveller-language-translator/jest.config.ts"
       }
     }
   },

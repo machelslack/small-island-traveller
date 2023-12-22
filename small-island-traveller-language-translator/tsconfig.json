@@ -1,12 +1,7 @@
 {
   "extends": "../tsconfig.base.json",
   "compilerOptions": {
-    "module": "commonjs",
-    "paths": {
-      "@small-island-traveller/small-island-traveller-language-translator": [
-        "small-island-traveller-language-translator/src/index.ts"
-      ]
-    }
+    "module": "commonjs"
   },
   "files": [],
   "include": [],

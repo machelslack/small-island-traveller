@@ -18,8 +18,8 @@
       "@small-island-traveller/small-island-traveller-api-gateway": [
         "small-island-traveller-api-gateway/src/index.ts"
       ],
-      "@small-island-traveller/small-island-traveller-api-gateway/server": [
-        "small-island-traveller-api-gateway/src/server.ts"
+      "@small-island-traveller/small-island-traveller-language-translator": [
+        "small-island-traveller-language-translator/src/index.ts"
       ]
     }
   },

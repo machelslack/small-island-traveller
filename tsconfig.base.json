@@ -45,6 +45,9 @@
       "@small-island-traveller/small-island-traveller-language-translator": [
         "small-island-traveller-language-translator/src/index.ts"
       ],
+      "@small-island-traveller/small-island-traveller-payment-gateway": [
+        "small-island-traveller-payment-gateway/src/index.ts"
+      ],
       "@small-island-traveller/small-island-traveller-recommendation-engine": [
         "small-island-traveller-recommendation-engine/src/index.ts"
       ],

@@ -1,0 +1,20 @@
+{
+  "name": "small-island-traveller-authn-and-authz",
+  "$schema": "../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "small-island-traveller-authn-and-authz/src",
+  "projectType": "library",
+  "targets": {
+    "lint": {
+      "executor": "@nx/eslint:lint",
+      "outputs": ["{options.outputFile}"]
+    },
+    "test": {
+      "executor": "@nx/jest:jest",
+      "outputs": ["{workspaceRoot}/coverage/{projectRoot}"],
+      "options": {
+        "jestConfig": "small-island-traveller-authn-and-authz/jest.config.ts"
+      }
+    }
+  },
+  "tags": []
+}

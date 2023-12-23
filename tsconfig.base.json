@@ -21,6 +21,9 @@
       "@small-island-traveller/small-island-traveller-api-gateway": [
         "small-island-traveller-api-gateway/src/index.ts"
       ],
+      "@small-island-traveller/small-island-traveller-authn-and-authz": [
+        "small-island-traveller-authn-and-authz/src/index.ts"
+      ],
       "@small-island-traveller/small-island-traveller-component-library": [
         "small-island-traveller-component-library/src/index.ts"
       ],

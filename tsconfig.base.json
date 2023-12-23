@@ -41,6 +41,12 @@
       ],
       "@small-island-traveller/small-island-traveller-recommendation-engine": [
         "small-island-traveller-recommendation-engine/src/index.ts"
+      ],
+      "@small-island-traveller/small-island-traveller-user-profile-manager": [
+        "small-island-traveller-user-profile-manager/src/index.ts"
+      ],
+      "@small-island-traveller/small-island-traveller-user-profile-manager/server": [
+        "small-island-traveller-user-profile-manager/src/server.ts"
       ]
     }
   },

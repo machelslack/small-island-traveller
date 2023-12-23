@@ -4,26 +4,7 @@
   "license": "MIT",
   "scripts": {
     "build": "npx nx build small-island-traveller",
-    // "serve": "nx run source:serve",
-    // "lint": "nx run source:lint",
-    // "test": "nx run source:test",
-    // "e2e": "nx run source:e2e",
-    // "affected:build": "nx affected:build",
-    // "affected:e2e": "nx affected:e2e",
-    // "affected:lint": "nx affected:lint",
-    // "affected:test": "nx affected:test",
-    // "affected:apps": "nx affected:apps",
-    // "affected:libs": "nx affected:libs",
-    // "affected:dep-graph": "nx affected:dep-graph",
-    // "affected": "nx affected",
-    // "format": "nx format:write",
-    // "format:write": "nx format:write",
-    // "format:check": "nx format:check",
-    // "workspace-schematic": "nx workspace-schematic",
-    "dep-graph": "nx dep-graph",
-    // "help": "nx help",
-    // "postinstall": "node ./postinstall.js",
-    // "swc": "swc"
+    "dep-graph": "nx dep-graph"
   },
   "private": true,
   "dependencies": {
@@ -39,6 +20,9 @@
     "tslib": "^2.3.0"
   },
   "devDependencies": {
+    "@babel/core": "^7.14.5",
+    "@babel/preset-react": "^7.14.5",
+    "@emotion/babel-plugin": "11.11.0",
     "@nx/cypress": "17.2.7",
     "@nx/eslint": "17.2.7",
     "@nx/eslint-plugin": "17.2.7",
@@ -46,7 +30,10 @@
     "@nx/js": "17.2.7",
     "@nx/node": "^17.2.7",
     "@nx/react": "17.2.7",
+    "@nx/rollup": "17.2.7",
     "@nx/workspace": "17.2.7",
+    "@rollup/plugin-url": "^7.0.0",
+    "@svgr/rollup": "^8.0.1",
     "@swc-node/register": "~1.6.7",
     "@swc/cli": "~0.1.62",
     "@swc/core": "~1.3.85",

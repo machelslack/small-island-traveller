@@ -3,7 +3,8 @@
   "version": "0.0.0",
   "license": "MIT",
   "scripts": {
-    "build": "npx nx build small-island-traveller",
+    "build": "nx build small-island-traveller",
+    "dev": "nx serve small-island-traveller",
     "dep-graph": "nx dep-graph"
   },
   "private": true,

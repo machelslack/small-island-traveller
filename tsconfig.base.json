@@ -30,6 +30,9 @@
       "@small-island-traveller/small-island-traveller-booking-engine/server": [
         "small-island-traveller-booking-engine/src/server.ts"
       ],
+      "@small-island-traveller/small-island-traveller-community-features": [
+        "small-island-traveller-community-features/src/index.ts"
+      ],
       "@small-island-traveller/small-island-traveller-component-library": [
         "small-island-traveller-component-library/src/index.ts"
       ],

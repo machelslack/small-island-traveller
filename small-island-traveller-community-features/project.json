@@ -1,0 +1,40 @@
+{
+  "name": "small-island-traveller-community-features",
+  "$schema": "../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "small-island-traveller-community-features/src",
+  "projectType": "library",
+  "tags": [],
+  "targets": {
+    "lint": {
+      "executor": "@nx/eslint:lint",
+      "outputs": ["{options.outputFile}"]
+    },
+    "build": {
+      "executor": "@nx/rollup:rollup",
+      "outputs": ["{options.outputPath}"],
+      "options": {
+        "outputPath": "dist/small-island-traveller-community-features",
+        "tsConfig": "small-island-traveller-community-features/tsconfig.lib.json",
+        "project": "small-island-traveller-community-features/package.json",
+        "entryFile": "small-island-traveller-community-features/src/index.ts",
+        "external": ["react", "react-dom", "@emotion/react/jsx-runtime"],
+        "rollupConfig": "@nx/react/plugins/bundle-rollup",
+        "compiler": "babel",
+        "assets": [
+          {
+            "glob": "small-island-traveller-community-features/README.md",
+            "input": ".",
+            "output": "."
+          }
+        ]
+      }
+    },
+    "test": {
+      "executor": "@nx/jest:jest",
+      "outputs": ["{workspaceRoot}/coverage/{projectRoot}"],
+      "options": {
+        "jestConfig": "small-island-traveller-community-features/jest.config.ts"
+      }
+    }
+  }
+}

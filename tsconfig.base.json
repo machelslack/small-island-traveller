@@ -33,6 +33,9 @@
       "@small-island-traveller/small-island-traveller-component-library": [
         "small-island-traveller-component-library/src/index.ts"
       ],
+      "@small-island-traveller/small-island-traveller-itinerary-presenter": [
+        "small-island-traveller-itinerary-presenter/src/index.ts"
+      ],
       "@small-island-traveller/small-island-traveller-language-translator": [
         "small-island-traveller-language-translator/src/index.ts"
       ],

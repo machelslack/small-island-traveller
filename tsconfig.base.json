@@ -24,6 +24,12 @@
       "@small-island-traveller/small-island-traveller-authn-and-authz": [
         "small-island-traveller-authn-and-authz/src/index.ts"
       ],
+      "@small-island-traveller/small-island-traveller-booking-engine": [
+        "small-island-traveller-booking-engine/src/index.ts"
+      ],
+      "@small-island-traveller/small-island-traveller-booking-engine/server": [
+        "small-island-traveller-booking-engine/src/server.ts"
+      ],
       "@small-island-traveller/small-island-traveller-component-library": [
         "small-island-traveller-component-library/src/index.ts"
       ],

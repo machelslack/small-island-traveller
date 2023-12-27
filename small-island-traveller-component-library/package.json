@@ -1,4 +1,13 @@
 {
   "name": "@small-island-traveller/small-island-traveller-component-library",
-  "version": "0.0.1"
+  "version": "0.0.1",
+  "scripts": {
+    "build:tailwind": "tailwindcss build ./src/lib/styles.css -o dist/styles/styles.css",
+    "build": "nx build"
+  },
+  "dependencies": {
+    "autoprefixer": "^10.4.16",
+    "postcss": "^8.4.32",
+    "tailwindcss": "^3.4.0"
+  }
 }

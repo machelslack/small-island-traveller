@@ -3,8 +3,11 @@
 import React from 'react';
 import ReactDOMServer from 'react-dom/server';
 import styled from '@emotion/styled';
+import { buildTree } from '@small-island-traveller/small-island-traveller-component-library';
 import devConfig from '../config/dev';
+import { homePage } from '../config/pages';
 import '../app/global.css';
+import '../../../dist/small-island-traveller-component-library/index.esm.css';
 
 const StyledPage = styled.div`
   .page {
@@ -26,7 +29,8 @@ async function fetchRequestToTranslateHTML(html: any, targetLanguage: any) {
     body: JSON.stringify(data),
   };
 
-  return await fetch(url, options).then((res) => res.json());
+  return '';
+  // return await fetch(url, options).then((res) => res.json());
 }
 
 function Index() {
@@ -52,5 +56,6 @@ export async function getServerSideProps({ req }: any) {
 }
 
 export default ({ html }: any) => {
-  return html;
+  const asd = buildTree(homePage);
+  return asd;
 };

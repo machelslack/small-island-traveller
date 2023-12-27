@@ -4,6 +4,7 @@
   "license": "MIT",
   "scripts": {
     "build": "nx build small-island-traveller",
+    "build:component-library": "nx build small-island-traveller-component-library",
     "dev": "nx serve small-island-traveller",
     "dep-graph": "nx dep-graph"
   },

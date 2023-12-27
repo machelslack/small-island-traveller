@@ -1,4 +1,4 @@
-const homePage = {
+export const homePage = {
   screens: [
     {
       id: 'ROOT',
@@ -82,5 +82,3 @@ const homePage = {
     },
   ],
 };
-
-export default homePage;

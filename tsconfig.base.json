@@ -45,6 +45,9 @@
       "@small-island-traveller/small-island-traveller-component-library": [
         "small-island-traveller-component-library/src/index.ts"
       ],
+      "@small-island-traveller/small-island-traveller-data-store": [
+        "small-island-traveller-data-store/src/index.ts"
+      ],
       "@small-island-traveller/small-island-traveller-itinerary-presenter": [
         "small-island-traveller-itinerary-presenter/src/index.ts"
       ],

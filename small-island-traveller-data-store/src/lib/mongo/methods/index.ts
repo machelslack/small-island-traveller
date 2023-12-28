@@ -1,0 +1,1 @@
+export { insertRecord } from './insertRecord';

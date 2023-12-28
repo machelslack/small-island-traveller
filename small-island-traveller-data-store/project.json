@@ -1,0 +1,20 @@
+{
+  "name": "small-island-traveller-data-store",
+  "$schema": "../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "small-island-traveller-data-store/src",
+  "projectType": "library",
+  "targets": {
+    "lint": {
+      "executor": "@nx/eslint:lint",
+      "outputs": ["{options.outputFile}"]
+    },
+    "test": {
+      "executor": "@nx/jest:jest",
+      "outputs": ["{workspaceRoot}/coverage/{projectRoot}"],
+      "options": {
+        "jestConfig": "small-island-traveller-data-store/jest.config.ts"
+      }
+    }
+  },
+  "tags": []
+}

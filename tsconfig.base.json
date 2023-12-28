@@ -30,6 +30,9 @@
       "@small-island-traveller/small-island-traveller-booking-engine/server": [
         "small-island-traveller-booking-engine/src/server.ts"
       ],
+      "@small-island-traveller/small-island-traveller-cache": [
+        "small-island-traveller-cache/src/index.ts"
+      ],
       "@small-island-traveller/small-island-traveller-chat-bot": [
         "small-island-traveller-chat-bot/src/index.ts"
       ],

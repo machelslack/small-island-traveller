@@ -1,0 +1,40 @@
+{
+  "name": "small-island-traveller-chat-bot",
+  "$schema": "../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "small-island-traveller-chat-bot/src",
+  "projectType": "library",
+  "tags": [],
+  "targets": {
+    "lint": {
+      "executor": "@nx/eslint:lint",
+      "outputs": ["{options.outputFile}"]
+    },
+    "build": {
+      "executor": "@nx/rollup:rollup",
+      "outputs": ["{options.outputPath}"],
+      "options": {
+        "outputPath": "dist/small-island-traveller-chat-bot",
+        "tsConfig": "small-island-traveller-chat-bot/tsconfig.lib.json",
+        "project": "small-island-traveller-chat-bot/package.json",
+        "entryFile": "small-island-traveller-chat-bot/src/index.ts",
+        "external": ["react", "react-dom", "@emotion/react/jsx-runtime"],
+        "rollupConfig": "@nx/react/plugins/bundle-rollup",
+        "compiler": "babel",
+        "assets": [
+          {
+            "glob": "small-island-traveller-chat-bot/README.md",
+            "input": ".",
+            "output": "."
+          }
+        ]
+      }
+    },
+    "test": {
+      "executor": "@nx/jest:jest",
+      "outputs": ["{workspaceRoot}/coverage/{projectRoot}"],
+      "options": {
+        "jestConfig": "small-island-traveller-chat-bot/jest.config.ts"
+      }
+    }
+  }
+}

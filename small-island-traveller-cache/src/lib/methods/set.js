@@ -1,4 +1,4 @@
-export const addItem = (client, key, value) => {
+const addItem = (client, key, value) => {
   try {
     client.set('sampleKey', 'Hello, Redis!', (err, reply) => {
       if (error) {
@@ -16,3 +16,5 @@ export const addItem = (client, key, value) => {
     console.log(`redis set item error:`, error);
   }
 };
+
+export default addItem;

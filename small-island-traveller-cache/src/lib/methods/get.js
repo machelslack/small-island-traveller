@@ -1,4 +1,4 @@
-export const addItem = (client, key) => {
+const getItem = (client, key) => {
   try {
     client.get(key, (error, data) => {
       if (error) {
@@ -14,3 +14,5 @@ export const addItem = (client, key) => {
     console.log(`redis set item error:`, error);
   }
 };
+
+export default getItem;
